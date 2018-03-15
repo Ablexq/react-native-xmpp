@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8764A22F205A9CD0007EA9EA /* RNXMPPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8764A22B205A9CCF007EA9EA /* RNXMPPConstants.m */; };
+		8764A230205A9CD0007EA9EA /* XMPPXOAuth2Wocky.m in Sources */ = {isa = PBXBuildFile; fileRef = 8764A22C205A9CCF007EA9EA /* XMPPXOAuth2Wocky.m */; };
 		878C03EE1BB31C440079CFC2 /* RNXMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 878C03ED1BB31C440079CFC2 /* RNXMPP.m */; };
 		878C04981BB40C520079CFC2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878C04971BB40C520079CFC2 /* CFNetwork.framework */; };
 		878C049B1BB40CAF0079CFC2 /* RNXMPPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 878C049A1BB40CAF0079CFC2 /* RNXMPPService.m */; };
@@ -167,6 +169,10 @@
 
 /* Begin PBXFileReference section */
 		873769951B7CD6E900F7C3C2 /* libRNXMPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNXMPP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8764A22B205A9CCF007EA9EA /* RNXMPPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNXMPPConstants.m; sourceTree = "<group>"; };
+		8764A22C205A9CCF007EA9EA /* XMPPXOAuth2Wocky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPXOAuth2Wocky.m; sourceTree = "<group>"; };
+		8764A22D205A9CD0007EA9EA /* XMPPXOAuth2Wocky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPXOAuth2Wocky.h; sourceTree = "<group>"; };
+		8764A22E205A9CD0007EA9EA /* RNXMPPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNXMPPConstants.h; sourceTree = "<group>"; };
 		878C03EC1BB31C440079CFC2 /* RNXMPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNXMPP.h; sourceTree = "<group>"; };
 		878C03ED1BB31C440079CFC2 /* RNXMPP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNXMPP.m; sourceTree = "<group>"; };
 		878C04971BB40C520079CFC2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -522,6 +528,10 @@
 		878C03D81BB319B40079CFC2 /* RNXMPP */ = {
 			isa = PBXGroup;
 			children = (
+				8764A22E205A9CD0007EA9EA /* RNXMPPConstants.h */,
+				8764A22B205A9CCF007EA9EA /* RNXMPPConstants.m */,
+				8764A22D205A9CD0007EA9EA /* XMPPXOAuth2Wocky.h */,
+				8764A22C205A9CCF007EA9EA /* XMPPXOAuth2Wocky.m */,
 				87FC1AE01D1D3AEC000426B1 /* XMPPFramework.h */,
 				878C03EC1BB31C440079CFC2 /* RNXMPP.h */,
 				878C03ED1BB31C440079CFC2 /* RNXMPP.m */,
@@ -1524,6 +1534,7 @@
 				87FC19881D1D361C000426B1 /* XMPPFileTransfer.m in Sources */,
 				87FC19A01D1D361C000426B1 /* XMPPRoomMessageCoreDataStorageObject.m in Sources */,
 				87FC19E01D1D361C000426B1 /* XEP_0223.m in Sources */,
+				8764A22F205A9CD0007EA9EA /* RNXMPPConstants.m in Sources */,
 				87FC19DB1D1D361C000426B1 /* XMPPAutoPing.m in Sources */,
 				87FC198D1D1D361C000426B1 /* XMPPReconnect.m in Sources */,
 				87FC19891D1D361C000426B1 /* XMPPIncomingFileTransfer.m in Sources */,
@@ -1594,6 +1605,7 @@
 				87FC19AE1D1D361C000426B1 /* XMPPvCardCoreDataStorage.m in Sources */,
 				87FC19D61D1D361C000426B1 /* XMPPMessageDeliveryReceipts.m in Sources */,
 				87FC197E1D1D361C000426B1 /* XMPPElement.m in Sources */,
+				8764A230205A9CD0007EA9EA /* XMPPXOAuth2Wocky.m in Sources */,
 				87FC19EC1D1D361C000426B1 /* RFImageToDataTransformer.m in Sources */,
 				87FC19E51D1D361C000426B1 /* NSXMLElement+XEP_0297.m in Sources */,
 				87FC198B1D1D361C000426B1 /* XMPPGoogleSharedStatus.m in Sources */,
